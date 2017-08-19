@@ -1,0 +1,22 @@
+Defina uma função, find_element, que recebe uma lista e um valor (de qualquer tipo) e 
+devolveo índice do primeiro elemento da lista que corresponde ao valor passado.
+
+usando loop while:
+
+def find_element(list, e):
+  i = 0
+  while i < len(list):
+    if list[i] == t:
+      return i
+    i += 1
+  return -1
+  
+  usando loop for:
+  
+def find_element(list, e):
+  i = 0
+  for x in list:
+    if x == e:
+      return i
+    i += 1
+  return -1
