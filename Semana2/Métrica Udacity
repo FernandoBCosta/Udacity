@@ -1,0 +1,9 @@
+Defina uma função, measure_udacity, que recebe uma lista de strings e devolve um número que corresponde à 
+contagem das strings na lista começadas com a letra 'U' maiúscula.
+
+def measure_udacity(list):
+    u = 0
+    for i in list:
+        if i[0] == 'U':
+            u += 1
+    return u
