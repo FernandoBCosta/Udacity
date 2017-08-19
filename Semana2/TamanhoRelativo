@@ -12,4 +12,4 @@ countries = [['China','Beijing',1350],
 popromania =  countries[2][2]
 popchina = countries[0][2]
 
-print popchine / popromania
+print popchina / popromania
