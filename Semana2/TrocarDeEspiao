@@ -1,0 +1,6 @@
+spy = [0,0,7]
+
+def replace_spy(list):
+    new = list
+    list[2] = new[2] + 1
+    return list
