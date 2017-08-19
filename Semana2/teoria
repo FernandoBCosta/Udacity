@@ -1,0 +1,17 @@
+Lista de operações
+<list>.append(<element>)
+adiciona element como novo elemento na lista list.
+
++
+concatena duas listas
+<list> + <list>
+
+len()
+len(<list>)
+tamanho de uma lista
+Porem só conta elementos externos, ou seja, se houver uma lista dentro de outra lista contara 
+como sendo um elemento.
+
+
+for <name> in <list>:
+<block>
