@@ -15,3 +15,8 @@ como sendo um elemento.
 
 for <name> in <list>:
 <block>
+
+
+existe a operação not in: (não esta)
+if a not in b:
+    block
