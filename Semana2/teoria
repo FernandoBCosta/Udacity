@@ -20,3 +20,9 @@ for <name> in <list>:
 existe a operação not in: (não esta)
 if a not in b:
     block
+
+
+função pop
+<list>.pop() -> element
+retorna o ultimo valor da list e o retira da list
+
