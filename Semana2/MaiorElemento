@@ -1,0 +1,21 @@
+#Encontra maior elemento de uma lista
+
+def greatest(list_of_numbers):
+    if len(list_of_numbers) > 0:
+        maior = list_of_numbers[0]
+        for i in list_of_numbers:
+            if i > maior:
+                maior = i
+        return maior
+    else:
+        return 0
+        
+       
+# resposta da udacity
+
+def greatest(list_of_numbers):
+        maior = 0
+        for i in list_of_numbers:
+            if i > maior:
+                maior = i
+        return maior
